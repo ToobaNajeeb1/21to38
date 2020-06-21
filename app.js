@@ -1,4 +1,4 @@
-/*----------------------------------CHAPTER 21-25--68912131415161718------------------------------------------*/
+/*----------------------------------CHAPTER 21-25--------------------------------------------*/
 /*----------------------------------TASK 1--------------------------------------------*/
 // var a=prompt("Enter Your First Name");
 // var b=prompt("Enter Your Last  Name");
@@ -40,7 +40,7 @@
 
 /*----------------------------------TASK 8--------------------------------------------*/
 
-var text=("Ali and Sami are best friends. They play cricket and football together.")    ;
+var text=("Ali & Sami are best friends. They play cricket & football together.")    ;
  for (var i = 0; i < text.length; i++) {
  if (text.slice(i, i + 3) === "&") {
  b = text.slice(0, i) + "and" + text.slice(i + 3);
@@ -53,7 +53,7 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 
 
 
-/*----------------------------------TASK 9------not--------------------------------------*/
+/*----------------------------------TASK 9-------------------------------------------*/
 //  var a ="456";
 // console.log(a)
 // a.toString()
@@ -78,28 +78,42 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 // var city=firstchar+otherChar;
 // alert(city);
 
-/*----------------------------------TASK 12---not-----------------------------------------*/
+/*----------------------------------TASK 12-------------------------------------------*/
 
 
-// var a="35.36";
-// parseInt(a)
-// console.log(a);
+// var  num = 35.36;
+// var  without = num.toString().replace(".", "");
+// console.log("without");
 /*----------------------------------TASK 13--------------------------------------------*/
 /*----------------------------------TASK 14--------------------------------------------*/
-/*----------------------------------TASK 15-not------------------------------------------*/
+// var item=["cake", "apple pie", "cookie", "chips", "patties"];
+// var search =prompt("enter youer cookie")
+// if (item.indexOf(search) !==-1){
+//     alert("yes" + search + "is available")
+// }
+// else{
+//     alert("not" + search + "is available")
+//}
+
+/*----------------------------------TASK 15-------------------------------------------*/
 // var a=prompt("Enter a password");
-// if(a=== !)
+// if(a===(/[A-Z]/)){
+//     console.log(ok);
+// }
+// else if(a===(/[a-z]/))
+// {
+//     console.log(notok);
 
 
-// /*----------------------------------TASK 16------------not--------------------------------*/
+// /*----------------------------------TASK 16--------------------------------------------*/
 // var str="University of Karachi";
 // //var b=a.split("<br>");
 // document.write(str.split("<hr>"));
-/*----------------------------------TASK 17-not-------------------------------------------*/
+/*----------------------------------TASK 17-------------------------------------------*/
 //  var text = "Pakistan";
 //  var segIndex = text.lastIndexOf("n");
 //  console.log(segIndex)
-/*----------------------------------TASK 18---------not----------------------------------*/
+/*----------------------------------TASK 18------------------------------------------*/
 // var word="The quick brown fox jumps over the lazy Dog";
 // var equal ="The";
 // count=0;
@@ -112,7 +126,7 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 //     console.log(count);
 // }
 
-/*----------------------------------CHAPTER 26-30-------8-------------------------------------*/
+/*----------------------------------CHAPTER 26-30--------------------------------------------*/
 /*----------------------------------TASK 1------------------------------------------*/
 // var a= prompt("Enter an integer number");
 // /*----------------------------------TASK 1--Part A----------------------------------------*/
@@ -170,7 +184,7 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 /*----------------------------------TASK 7------------------------------------------*/
 // var a =prompt("Enter your weight");
 // document.write("The Weight Of User Is:"+ a+ "<br>")
-/*----------------------------------TASK 8-------not-----------------------------------*/
+/*----------------------------------TASK 8-----------------------------------------*/
 // var a=prompt("Enter a number between 1 to 10");
 // for( var i=1;i<=10;i++)
 // if(a===5){
@@ -199,7 +213,7 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 //     break;
 // }
 
-/*----------------------------------CHAPTER 31 to 34--7891101112-----------------------------------------*/
+/*----------------------------------CHAPTER 31 to 34-------------------------------------------*/
 /*----------------------------------TASK 1--------------------------------------------*/
 // var a =new Date();
 // a.setSeconds(60);
@@ -228,7 +242,7 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 // {
 //     alert("Last days of the month")
 // }
-/*----------------------------------TASK 6----half not----------------------------------------*/
+/*----------------------------------TASK 6--------------------------------------------*/
 
 
 // var dob= new Date("Jan. 1, 1970 ")
@@ -287,74 +301,83 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 // document.write("Gross Amount Payable (after Due Date):"+ " "+f+"<br>");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------CHAPTER 35 to 38--234789101314------------------------------------------*/
+/*----------------------------------CHAPTER 35 to 38-------------------------------------------*/
 
 /*----------------------------------TASK 1--------------------------------------------*/
 // var a =new Date();
 // document.write(a)
 /*------------------------------------TASK 2-----------------------------------------------------*/
+
+/*------------------------------------TASK 3-----------------------------------------------------*/
+//  function sum (x,y)
+//      {
+//           num1=parseInt(x);
+//     	num2=parseInt(y);
+//         return (num1+num2);
+//     }
+//      var input1 = window.prompt("Enter a number: ", 0);
+//      var input2 = window.prompt("Enter another number: ", 0);
+//       var sum = sum(input1 + input2);
+//      document.writeln("<h1> First number: " + input1 + "</h1>");
+//      document.writeln("<h1> Second number: " + input2 + "</h1>");
+//      document.writeln("<h1> Sum: " + sum + "</h1>");
+
+
+
+/*------------------------------------TASK 4-----------------------------------------------------*/
+// var num1 =prompt("enter your first number");
+// var num2 =prompt("enter your second number");
+// var op=prompt("enter operator from +- /*");
+// function add (a,b)
+// {
+
+// var result =parseInt(a)+ parseInt(b);
+// document.write("Addition result is:" + result);
+// }
+
+// function subtract (a,b)
+// {
+//     var result= a-b;
+
+// document.write("Subtraction result is:" + result);
+// }
+// function Multiply (a,b)
+// {
+//     var result=a*b;
+
+// document.write("multilication result is:" + result);
+// }
+// function divide (a,b)
+// {
+//     var result=a/b;
+
+// document.write("division result is:" + result);
+
+// }
+// if(op =="+")
+// {
+//     add(num1,num2);
+// }
+
+
+//  else if(op =="-")
+// {
+//     subtract(num1,num2);
+// }
+//  else if(op =="*")
+// {
+// Multiply(num1,num2);
+// }
+// else if(op =="/")
+// {
+//     divide(num1,num2);
+// }
+// else
+// {
+//     alert("invalid operator");
+// }
+
+
 
 
 /*-------------------------------------------task 5--------------------------------*/
@@ -412,3 +435,18 @@ var text=("Ali and Sami are best friends. They play cricket and football togethe
 //   return result;
 // }
 // console.log(find_longest_word('Web Development Tutorial'));
+// {
+//  var letter_Count = 0;
+//  for (var position = 0; position < str.length; position++) 
+//  {
+//     if (str.charAt(position) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+
+// console.log(char_count('JSResourceS.com', 'o'));
+
+
